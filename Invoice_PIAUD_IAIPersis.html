@@ -7,9 +7,24 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
+        * {
+            box-sizing: border-box;
+        }
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             color: #1e293b;
+            background-color: #f1f5f9;
+            margin: 0;
+            padding: 24px 12px;
+        }
+        .invoice-card {
+            max-width: 768px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 36px 40px;
+            border: 1px solid #e2e8f0;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
         }
         @page {
             size: A4 portrait;
@@ -119,8 +134,8 @@
                         </span>
                     </td>
                     <td class="py-3.5 px-2 text-center font-medium">1</td>
-                    <td class="py-3.5 px-4 text-right font-mono">Rp 1.200.000</td>
-                    <td class="py-3.5 px-4 text-right font-mono font-semibold text-slate-900">Rp 1.200.000</td>
+                    <td class="py-3.5 px-4 text-right font-mono">Rp 1.300.000</td>
+                    <td class="py-3.5 px-4 text-right font-mono font-semibold text-slate-900">Rp 1.300.000</td>
                 </tr>
                 
                 <!-- Item 2: Backend Architecture Laravel & CMS -->
@@ -133,8 +148,8 @@
                         </span>
                     </td>
                     <td class="py-3.5 px-2 text-center font-medium">1</td>
-                    <td class="py-3.5 px-4 text-right font-mono">Rp 1.100.000</td>
-                    <td class="py-3.5 px-4 text-right font-mono font-semibold text-slate-900">Rp 1.100.000</td>
+                    <td class="py-3.5 px-4 text-right font-mono">Rp 1.200.000</td>
+                    <td class="py-3.5 px-4 text-right font-mono font-semibold text-slate-900">Rp 1.200.000</td>
                 </tr>
 
                 <!-- Item 3: Migrasi DB & Server Setup -->
@@ -168,7 +183,7 @@
         <div class="w-64 space-y-1 text-xs text-slate-700 self-end">
             <div class="flex justify-between text-slate-600">
                 <span>Subtotal Item:</span>
-                <span class="font-mono font-medium text-slate-900">Rp 2.800.000</span>
+                <span class="font-mono font-medium text-slate-900">Rp 3.000.000</span>
             </div>
             <div class="flex justify-between text-slate-600">
                 <span>Diskon / Potongan:</span>
@@ -176,7 +191,7 @@
             </div>
             <div class="flex justify-between border-t border-slate-300 pt-2 font-bold text-slate-900 text-sm">
                 <span>Total:</span>
-                <span class="font-mono font-bold text-base text-emerald-800">Rp 2.800.000</span>
+                <span class="font-mono font-bold text-base text-emerald-800">Rp 3.000.000</span>
             </div>
         </div>
     </div>
